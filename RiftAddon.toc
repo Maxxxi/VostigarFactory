@@ -1,0 +1,42 @@
+﻿Identifier = "VostigarFactory"
+
+Name = "VostigarFactory"
+
+Description =
+{
+	English = [[Shows the location of the simulated factories of the peak of vostigar.]],
+	French = [[Montre l'emplacement des usines de simulacre du pic de vostigar.]],
+	German = [[Zeigt den Standort der simulierten Fabriken des Gipfels von Vostigar.]],
+}
+
+Author = "Ranadyla@Brisesol"
+Website = "http://bloodyteddybears.com"
+Email = "Ranadyla@"
+
+Version = "1.0"
+
+Environment = "4.3"
+
+--@no-lib-strip@
+Embed = {
+	["libs/LibAsyncTextures"] = true,
+	["libs/LibSimpleWidgets"] = true,
+}
+--@end-no-lib-strip@
+
+Dependencies = {
+	LibAsyncTextures = { "required", "before" },
+	LibSimpleWidgets = {"required", "before"},
+}
+
+RunOnStartup = {
+	"Language/Translate.lua",
+	"Language/Lang/en.lua",
+	"Language/Lang/fr.lua",
+	"Main.lua",
+}
+
+SavedVariables = 
+{
+	VostigarFactorySettings = "account",
+}
