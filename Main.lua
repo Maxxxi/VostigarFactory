@@ -1,5 +1,5 @@
 	--[[
-		Vostigar Chests ADDON
+		Vostigar Factory ADDON
 		Ranadyla@Brisesol
 	]]--
 

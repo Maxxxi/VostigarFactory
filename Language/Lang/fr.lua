@@ -1,5 +1,5 @@
 	--[[	
-		Btb_VostigarChests Addon
+		VostigarFractory Addon
 		Ranadyla@Brisesol
 	]]--
 	
